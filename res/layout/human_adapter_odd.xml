@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+
+    <CheckBox
+        
+         android:id="@+id/selected"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/selected"
+        android:textSize="16sp"
+        android:textStyle="bold" 
+        android:background="#990000FF"
+        android:layout_weight="1" />
+
+    <TextView
+         android:id="@+id/human_message"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textSize="14sp" 
+        android:textStyle="italic" 
+        android:background="#99000099"
+        android:layout_weight="2"/>
+    
+
+</LinearLayout>

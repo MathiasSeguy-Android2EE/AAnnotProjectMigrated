@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidAnnotation MigrationExo</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title">Bonjour</string>
+    <string name="selected">Select</string>
+    <string name="btn_text">Add</string>
+    <string name="btn_flush_text">Flush EDT</string>
+    <string name="edt_hint">Enter a text</string>
+    
+
+</resources>
