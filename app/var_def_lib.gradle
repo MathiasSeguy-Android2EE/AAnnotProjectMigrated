@@ -1,0 +1,6 @@
+//This is the list of the version of library you use
+project.ext {
+//comNeenbedanktGradlePlugins_androidApt_Version_NotFound='Unknown'
+//orgAndroidannotations_androidannotations_Version_NotFound='Unknown'
+//orgAndroidannotations_androidannotationsApi_Version_NotFound='Unknown'
+}

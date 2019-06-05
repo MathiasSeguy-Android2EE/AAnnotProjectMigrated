@@ -1,0 +1,11 @@
+	classpath "com.neenbedankt.gradle.plugins:android-apt:${comNeenbedanktGradlePlugins_androidApt_Version}"
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+	apt "org.androidannotations:androidannotations:${orgAndroidannotations_androidannotations_Version}"
+	implementation "org.androidannotations:androidannotations-api:${orgAndroidannotations_androidannotationsApi_Version}"
+    //Crashlytics
+    implementation("com.crashlytics.sdk.android:crashlytics:${comCrashlyticsSdkAndroid_crashlytics_Version}") {
+        transitive = true;
+    }
+    //Junit elements    
+    androidTestImplementation "junit:junit:${junit_junit_Version}" 
+    testImplementation "junit:junit:${junit_junit_Version}"
